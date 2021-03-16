@@ -1,0 +1,146 @@
+body {
+  font-size: 1.25em;
+  margin: 25px;
+  color: #003366;
+}
+
+h1, h3 {
+  color: #003366;
+  font-variant: small-caps;
+}
+
+/* center content on screen */
+.wrap {
+  margin: 0 auto;
+  width: 90%;
+}
+
+main {
+  width: 70%;
+  float: left;
+  padding: 10px 25px 10px 10px;
+}
+
+aside.right {
+  width: 25%;
+  float: left;
+  padding: 10px;
+}
+
+article.sidebar {
+  border-left: 1px solid red;
+  border-bottom: 1px solid red;
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+
+hr {
+  border-top: 1px solid red;
+}
+
+figure {
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding: 0;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+img.responsive-main {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+img.responsive-sidebar {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+}
+
+table {
+  border-collapse: collapse;
+  color: #003366;
+}
+
+th.day {
+  text-align: center;
+  background-color: #dcdcdc;
+  padding: 5px;
+  border: none;
+}
+
+th.course {
+  text-align: right;
+  background-color: #dcdcdc;
+  padding: 5px;
+  border: none;
+}
+
+td {
+  padding: 5px 5px 5px 5px;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid #dcdcdc;
+}
+
+caption {
+  color: #003366;
+  font-size: 1.0em;
+  font-style: italic;
+  font-weight: bold;
+  caption-side: bottom;
+}
+
+li {
+  padding: 5px;
+}
+
+/* Formatting for the menu bar */
+#menubar {
+  background-color: #036;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Converting an unordered list into top navigation buttons */
+ul#navlist {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+#navlist li {
+  display: block;
+  float: left;
+  font-weight: bold;
+  text-align: center;
+  font-variant: small-caps;
+  padding: 10px;
+}
+
+#navlist a {
+  padding: 10px 10px;
+}
+
+#navlist a:link, #navlist a:visited {
+  color: #fff;
+  background-color: #036;
+  text-decoration: none;
+}
+
+#navlist a:hover {
+  color: #003366;
+  background-color: #d5d5d5;
+  text-decoration: none;
+}
+
+/* Formatting to highlight the navigation button corresponding to the page you are on... breadcrumb. */
+body#home a#homenav, body#schedule a#schedulenav {
+  color: #003366;
+  background-color: pink;
+  text-decoration: none;
